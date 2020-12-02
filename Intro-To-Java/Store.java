@@ -10,6 +10,11 @@ public class Store {
       inventoryPrice = price;
     }
     
+    public void advertise() {
+      String message = "Selling " + productType + "!";
+      System.out.println(message);
+    }
+    
     // main method
     public static void main(String[] args) {
       Store lemonadeStand = new Store("lemonade", 42, .99);
